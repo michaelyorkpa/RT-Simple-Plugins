@@ -15,7 +15,9 @@ This is a combination of plugins that will add funcionality to WordPress in a wa
   * Custom text before the originally published date
   * Custom date formatting
 * Easy 301 Redirects
-  * A simple way, lightweight way to create 301 redirects for any URL 
+  * A simple way, lightweight way to create 301 redirects for any URL
+* Broken Link Checker
+  * A way to check for broken links on your WordPress site
 
 ## Version History
 * 0.15 
