@@ -1,25 +1,48 @@
 # [Raymond Tec](https://raymondtec.com) Simple Plugins
 
 ## Description
-This is a combination of plugins that will add funcionality to WordPress in a way that is lightweight and simple to use.
+This will become a combination of plugins that will add funcionality to WordPress in a way that is lightweight and simple to use.
 
-### Current Features
-* Last Updated Date
+## Current Features
+* Date Customizer
   * Adds last updated date to your posts above the content
   * Gives the option to show the originally published date too
+  * Allows you to control whether either or both of these dates appear on pages or posts
+  * Allows you to customize the text before the last updated and originally published date
+  * Allows you to set custom css for each of the date types
 
-### Future Features
-* Last Updated Date
-  * Selecting where the date goes on the page
-  * Custom CSS for original publishing date
-  * Custom text before the originally published date
+## Future Features
+* Date Customizer
+  * Enqueue the CSS styles
   * Custom date formatting
+  * Custom hooking for placing updated and originally published date
+    * before_post_title, after_post_title, post_end, post_after
+  * Verify best security practices
+    * Nonces
+    * Sanitization
+    * Data validation
+  * Translations
 * Easy 301 Redirects
   * A simple way, lightweight way to create 301 redirects for any URL
 * Broken Link Checker
   * A way to check for broken links on your WordPress site
+* Shortcodes
+  * Post Author shortcode
+    * Can link to Author page or Author Email
+* Turn off Dashicons
+  * Allows turning off the dashicons for non-logged in users, to speed up page load
+* RSS Widget Modifications
+  * Open RSS Links in new window
+* More Comments!
 
 ## Version History
+* 0.16
+  * Fixed the Issue with the admin page display
+    * Reorganized the layout
+  * Added custom text and custom css for Originally Published Date
+  * Added option to show Original Publish date on posts, and on pages
+  * Added index.php for security compliance
+  * Added .zip file to repository for easy download
 * 0.15 
   * Updated plugin name and variables to reflect this change
   * Moved plugin settings to their own page, rather than in the settings menu
