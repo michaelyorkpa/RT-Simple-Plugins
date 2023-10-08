@@ -1,7 +1,7 @@
-# [Raymond Tec](https://raymondtec.com) Simple Plugins
+# [Raymond Tec](https://raymondtec.com) Simple Plugin
 
 ## Description
-This will become a combination of plugins that will add funcionality to WordPress in a way that is lightweight and simple to use.
+This will become a combination of modifications that will add funcionality to WordPress in a way that is lightweight and simple to use.
 
 ## Current Features
 * Date Customizer
@@ -10,18 +10,26 @@ This will become a combination of plugins that will add funcionality to WordPres
   * Allows you to control whether either or both of these dates appear on pages or posts
   * Allows you to customize the text before the last updated and originally published date
   * Allows you to set custom css for each of the date types
+* RSS Widget Customizer
+  * Allows you to turn off and on the ability to have all Automattic RSS widgets open links in new tabs
 
 ## Future Features
 * Date Customizer
+  * Accessibility
   * Enqueue the CSS styles
+  * Add the CSS style to the customizer
   * Custom date formatting
   * Custom hooking for placing updated and originally published date
     * before_post_title, after_post_title, post_end, post_after
   * Verify best security practices
     * Nonces
     * Sanitization
+      * threshold_hours as integer
+      * 
     * Data validation
   * Translations
+  * Adding exclusions to originally published and updated date
+  * 
 * Easy 301 Redirects
   * A simple way, lightweight way to create 301 redirects for any URL
 * Broken Link Checker
@@ -32,10 +40,18 @@ This will become a combination of plugins that will add funcionality to WordPres
 * Turn off Dashicons
   * Allows turning off the dashicons for non-logged in users, to speed up page load
 * RSS Widget Modifications
-  * Open RSS Links in new window
-* More Comments!
+  * Properly enqueue the JavaScript for this
 
 ## Version History
+* 0.17
+  * Accessibility
+    * Added ARIA markup to all the form fields on the Admin dashboard
+    * Added hover over tooltips to all the form fields on the admin dashboard
+  * Added autofocus to threshold hours
+  * Made labels clickable as well as the fields
+  * Removed superfluous option to turn off originally published date, as that can be controlled by turning off pages and posts together
+  * Added way more comments to my code (this is mostly for me)
+  * Add RSS Widget Modification
 * 0.16
   * Fixed the Issue with the admin page display
     * Reorganized the layout
