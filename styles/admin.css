@@ -1,0 +1,16 @@
+.rtsimplug-simple-columns-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+.rtsimplug-simple-column {
+    flex-basis: 48%; /* Adjust the width as needed */
+    border: 1px solid #ccc; /* Border color and thickness */
+    padding: 10px; /* Add padding inside the columns */
+    margin: 10px; /* Add space between the columns */
+}
+#display_on_pages {
+    text-align: left;
+}
+#display_on_pages {
+    text-align: left;
+}
